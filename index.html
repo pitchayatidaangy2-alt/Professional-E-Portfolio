@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pitchayatida Tamai</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font (Prompt) -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome สำหรับไอคอน -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- เชื่อมโยงไฟล์ CSS ภายนอก -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="leading-relaxed">
+
+    <!-- Navbar -->
+    <header
+        class="fixed top-0 left-0 w-full bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm z-50 border-b border-[#EADFC8]/50">
+
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+
+            <a href="#" class="font-bold text-xl text-[#7E57C2]">
+                Portfolio<span class="text-[#2D263B]">.</span>
+            </a>
+
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-[#7E57C2] transition">ข้อมูลส่วนตัว</a>
+                <a href="#education" class="hover:text-[#7E57C2] transition">การศึกษา</a>
+                <a href="#skills" class="hover:text-[#7E57C2] transition">ทักษะ</a>
+                <a href="#projects" class="hover:text-[#7E57C2] transition">ผลงาน</a>
+                <a href="#experience" class="hover:text-[#7E57C2] transition">ประสบการณ์</a>
+            </nav>
+
+            <a href="#contact"
+                class="bg-[#9575CD] text-white text-sm px-4 py-2 rounded-lg font-medium hover:bg-[#7E57C2] transition shadow-sm">
+                ติดต่อฉัน
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- Hero Section / ข้อมูลส่วนตัว -->
+    <section id="about"
+        class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+        <!-- รูปโปรไฟล์ -->
+        <div
+            class="w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-xl border-4 border-white shrink-0 bg-[#EDE7F6] transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl">
+
+            <img src="images/angie.jpg"
+                alt="Profile Picture"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+
+        </div>
+
+        <div class="text-center md:text-left">
+
+            <span
+                class="bg-[#EDE7F6] text-[#673AB7] text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+                Pitchayatida Tamai
+            </span>
+
+            <h1 class="text-l md:text-4xl font-bold mt-3 text-[#2D263B]">
+                นางสาวพิชญธิดา ตามัย
+            </h1>
+
+            <p class="text-[#6B5B7B] font-medium mt-1">
+                รหัสนักศึกษา: 6711011808031
+            </p>
+
+            <p class="text-[#6B5B7B] font-medium mt-1">
+                สาขาวิชา ธุรกิจสร้างสรรค์และเทคโนโลยีดิจิทัล
+            </p>
+
+            <p class="text-[#6B5B7B] font-medium mt-1">
+                คณะ วิทยาการจัดการ มหาวิทยาลัยสวนดุสิต
+            </p>
+
+            <p class="text-[#6B5B7B] font-medium mt-1">
+                มหาวิทยาลัยสวนดุสิต
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- ประวัติการศึกษา -->
+    <section id="education"
+        class="py-16 bg-[#F5F0E6] border-y border-[#EADFC8]">
+
+        <div class="max-w-4xl mx-auto px-6">
+
+            <h2
+                class="text-2xl font-bold text-[#2D263B] mb-8 flex items-center gap-3">
+
+                <i class="fa-solid fa-graduation-cap text-[#9575CD]"></i>
+                ประวัติการศึกษา
+
+            </h2>
+
+            <div class="space-y-6 border-l-2 border-[#D1C4E9] pl-6 ml-2">
+
+                <div
+                    class="relative transition-all duration-300 hover:translate-x-2">
+
+                    <div
+                        class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-[#9575CD] border-4 border-[#F5F0E6]">
+                    </div>
+
+                    <span class="text-xs font-semibold text-[#7E57C2]">
+                        พ.ศ. 2567 - ปัจจุบัน
+                    </span>
+
+                    <h3 class="text-base font-bold text-[#2D263B]">
+                        ปริญญาตรี ปริญญา: บริหารธุรกิจบัณฑิต (บธ.บ.)
+                        สาขา ธุรกิจสร้างสรรค์และเทคโนโลยีดิจิทัล
+                    </h3>
+
+                    <p class="text-[#554966] text-sm">
+                        [มหาวิทยาลัยสวนดุสิต]
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="relative transition-all duration-300 hover:translate-x-2">
+
+                    <div
+                        class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-[#B39DDB] border-4 border-[#F5F0E6]">
+                    </div>
+
+                    <span class="text-xs font-semibold text-[#7E57C2]">
+                        พ.ศ. 2565 - 2567
+                    </span>
+
+                    <h3 class="text-base font-bold text-[#2D263B]">
+                        มัธยมศึกษาตอนปลาย (แผนการเรียน วิทย์-คณิต)
+                    </h3>
+
+                    <p class="text-[#554966] text-sm">
+                        [โรงเรียนทุ่งช้าง]
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ทักษะ -->
+    <section id="skills" class="py-16 max-w-4xl mx-auto px-6">
+
+        <h2
+            class="text-2xl font-bold text-[#2D263B] mb-8 flex items-center gap-3">
+
+            <i class="fa-solid fa-code text-[#9575CD]"></i>
+            ทักษะความสามารถ (Skills)
+
+        </h2>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- Programming -->
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-[#EADFC8] transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <h3
+                    class="font-bold text-[#2D263B] mb-4 flex items-center gap-2">
+
+                    <i class="fa-solid fa-laptop-code text-[#9575CD]"></i>
+                    โปรแกรมมิ่ง
+
+                </h3>
+
+                <div class="flex flex-wrap gap-2">
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        HTML / CSS
+                    </span>
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        Python
+                    </span>
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        Google Apps Script
+                    </span>
+
+                </div>
+            </div>
+
+
+            <!-- Design -->
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-[#EADFC8] transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <h3
+                    class="font-bold text-[#2D263B] mb-4 flex items-center gap-2">
+
+                    <i class="fa-solid fa-pen-nib text-[#9575CD]"></i>
+                    การออกแบบ
+
+                </h3>
+
+                <div class="flex flex-wrap gap-2">
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        Canva
+                    </span>
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        UI/UX Design
+                    </span>
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        Figma
+                    </span>
+
+                </div>
+            </div>
+
+
+            <!-- Tools -->
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-[#EADFC8] transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <h3
+                    class="font-bold text-[#2D263B] mb-4 flex items-center gap-2">
+
+                    <i class="fa-solid fa-toolbox text-[#9575CD]"></i>
+                    เครื่องมือ & อื่นๆ
+
+                </h3>
+
+                <div class="flex flex-wrap gap-2">
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        AppSheet
+                    </span>
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        VS Code
+                    </span>
+
+                    <span
+                        class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-3 py-1.5 rounded-md font-medium">
+                        Microsoft Office
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ผลงาน -->
+<section id="projects"
+    class="py-16 bg-[#F5F0E6] border-y border-[#EADFC8]">
+
+    <div class="max-w-4xl mx-auto px-6">
+
+        <h2
+            class="text-2xl font-bold text-[#2D263B] mb-8 flex items-center gap-3">
+
+            <i class="fa-solid fa-briefcase text-[#9575CD]"></i>
+            ผลงานเด่น (Portfolio & Projects)
+
+        </h2>
+
+
+        <!-- Project Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <!-- Project 1 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden border border-[#EADFC8] flex flex-col shadow-sm transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <div class="h-40 bg-[#EDE7F6] overflow-hidden">
+
+                    <img src="images/Sourdough Artisan.png"
+                        alt="Sourdough Artisan"
+                        class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+
+                </div>
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <h3 class="font-bold text-lg text-[#2D263B]">
+                        [Sourdough Artisan]
+                    </h3>
+
+                    <p class="text-[#554966] text-sm mt-2 flex-grow">
+                        พัฒนาเว็บไซต์สำหรับร้านขนมปังซาวร์โดว์
+                        รองรับการแสดงสินค้า การสั่งซื้อ การสะสมแต้ม
+                        และประวัติการสั่งซื้อ พร้อมออกแบบส่วนติดต่อผู้ใช้ให้ใช้งานง่าย
+                    </p>
+
+                    <div class="mt-4 flex flex-wrap gap-2">
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            HTML/CSS
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            JavaScript
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Google Apps Script
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            AppSheet
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Project 2 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden border border-[#EADFC8] flex flex-col shadow-sm transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <div class="h-40 bg-[#EDE7F6] overflow-hidden">
+
+                    <img src="images/Keep a Promise.jpg"
+                        alt="Keep-a-Promise"
+                        class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+
+                </div>
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <h3 class="font-bold text-lg text-[#2D263B]">
+                        [Keep-a-Promise]
+                    </h3>
+
+                    <p class="text-[#554966] text-sm mt-2 flex-grow">
+                        ออกแบบแอปพลิเคชันช่วยสร้างนิสัยและติดตามเป้าหมายส่วนตัว
+                        โดยเน้นการบันทึกคำมั่นสัญญาและความสำเร็จในแต่ละวัน
+                        ผ่านดีไซน์ที่เรียบง่ายและเป็นมิตร
+                    </p>
+
+                    <div class="mt-4 flex flex-wrap gap-2">
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            UI/UX
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Figma
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Canva
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Project 3 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden border border-[#EADFC8] flex flex-col shadow-sm transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <div class="h-40 bg-[#EDE7F6] overflow-hidden">
+
+                    <img src="images/FishGrow.jpg"
+                        alt="FishGrow"
+                        class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+
+                </div>
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <h3 class="font-bold text-lg text-[#2D263B]">
+                        [FishGrow]
+                    </h3>
+
+                    <p class="text-[#554966] text-sm mt-2 flex-grow">
+                        ออกแบบเว็บไซต์นำเสนอธุรกิจการเลี้ยงปลาอย่างยั่งยืน
+                        โดยเน้นการสื่อสารแนวคิด การนำเสนอสินค้า
+                        และข้อมูลเกี่ยวกับกระบวนการผลิตให้เข้าใจง่าย
+                    </p>
+
+                    <div class="mt-4 flex flex-wrap gap-2">
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            UI/UX
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Research
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Prototype
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Project 4 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden border border-[#EADFC8] flex flex-col shadow-sm transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl hover:border-[#9575CD] cursor-pointer">
+
+                <div class="h-40 bg-[#EDE7F6] overflow-hidden">
+
+                    <img src="images/AR.png"
+                        alt="AR นิทาน"
+                        class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+
+                </div>
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <h3 class="font-bold text-lg text-[#2D263B]">
+                        [AR นิทาน]
+                    </h3>
+
+                    <p class="text-[#554966] text-sm mt-2 flex-grow">
+                        ออกแบบสื่อการเรียนรู้สำหรับเด็กในรูปแบบนิทาน
+                        เสริมเทคโนโลยี AR เพื่อส่งเสริมการเรียนรู้เรื่องวินัย
+                        ผ่านเรื่องราวและภาพประกอบที่น่าสนใจ
+                    </p>
+
+                    <div class="mt-4 flex flex-wrap gap-2">
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Storytelling
+                        </span>
+
+                        <span class="text-[10px] bg-[#EDE7F6] text-[#673AB7] px-2 py-1 rounded font-semibold">
+                            Creative Tech
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+    <!-- ประสบการณ์ -->
+    <section id="experience"
+        class="py-16 max-w-4xl mx-auto px-6">
+
+        <h2
+            class="text-2xl font-bold text-[#2D263B] mb-8 flex items-center gap-3">
+
+            <i class="fa-solid fa-medal text-[#9575CD]"></i>
+            ประสบการณ์และกิจกรรม
+
+        </h2>
+
+
+        <div class="space-y-4">
+
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-[#EADFC8] transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl hover:border-[#9575CD] cursor-pointer">
+
+                <div
+                    class="flex justify-between items-start flex-wrap gap-2">
+
+                    <h3 class="font-bold text-[#2D263B]">
+                        [Moral Hackathon 2026]
+                    </h3>
+
+                    <span class="text-xs text-[#7E57C2] font-medium">
+                        2026
+                    </span>
+
+                </div>
+
+                <p class="text-[#554966] text-sm mt-2">
+                    ผ่านการคัดเลือกเข้าสู่รอบ Boot Camp การแข่งขันออกแบบนวัตกรรมเพื่อการปรับเปลี่ยนพฤติกรรมของคนในสังคมภายใต้โจทย์การแข่งขัน MORAL HACK (a bit)
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="space-y-4">
+
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-[#EADFC8] transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl hover:border-[#9575CD] cursor-pointer">
+
+                <div
+                    class="flex justify-between items-start flex-wrap gap-2">
+
+                    <h3 class="font-bold text-[#2D263B]">
+                        [ผู้ประสานงาน]
+                    </h3>
+
+                    <span class="text-xs text-[#7E57C2] font-medium">
+                        2026
+                    </span>
+
+                </div>
+
+                <p class="text-[#554966] text-sm mt-2">
+                    จัดทำออกแบบโปสเตอร์ กิจกรรมสัมมนา "Google Stitch: เปลี่ยนไอเดียให้เป็น UI ด้วย AI" และจัดทำสรุปเนื้อหาโครงการกิจกรรมสัมนา "สร้างตัวตนก่อนสร้างอาชีพ"
+                </p>
+
+            </div>
+
+        </div>
+
+         <div class="space-y-4">
+
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-[#EADFC8] transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl hover:border-[#9575CD] cursor-pointer">
+
+                <div
+                    class="flex justify-between items-start flex-wrap gap-2">
+
+                    <h3 class="font-bold text-[#2D263B]">
+                        [X Campus Ads Idea Contest]
+                    </h3>
+
+                    <span class="text-xs text-[#7E57C2] font-medium">
+                        2025
+                    </span>
+
+                </div>
+
+                <p class="text-[#554966] text-sm mt-2">
+                    เข้าร่วมการแข่งขันประกวดแผนโฆษณา คิดสร้างสรรค์ Storyboard แคมเปญให้กับแบรนด์ Peppermint
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer / Contact -->
+    <footer id="contact"
+        class="bg-[#2D263B] text-[#FDFBF7] py-12">
+
+        <div class="max-w-4xl mx-auto px-6 text-center">
+
+            <h2 class="text-xl font-bold">
+                CONTACT
+            </h2>
+
+            <p class="text-[#D1C4E9] text-sm mt-2">
+                Feel free to contact me for work opportunities or internships.
+            </p>
+
+
+            <!-- Contact Cards -->
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                <!-- Email -->
+                <a href="mailto:pitchayatidaangy2@gmail.com"
+                    class="bg-[#3E354F] rounded-xl p-5 transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:bg-[#9575CD] cursor-pointer">
+
+                    <i class="fa-solid fa-envelope text-xl"></i>
+
+                    <h3 class="font-semibold mt-2">
+                        Email
+                    </h3>
+
+                    <p class="text-sm text-[#D1C4E9] mt-1">
+                        pitchayatidaangy2@gmail.com
+                    </p>
+
+                </a>
+
+
+                <!-- Line -->
+                <a href="https://line.me/ti/p/~pitchayatida_angy"
+                    target="_blank"
+                    class="bg-[#3E354F] rounded-xl p-5 transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:bg-[#9575CD] cursor-pointer">
+
+                    <i class="fa-brands fa-line text-xl"></i>
+
+                    <h3 class="font-semibold mt-2">
+                        Line
+                    </h3>
+
+                    <p class="text-sm text-[#D1C4E9] mt-1">
+                        @pitchayatida_angy
+                    </p>
+
+                </a>
+
+
+                <!-- Phone -->
+                <a href="tel:0932393512"
+                    class="bg-[#3E354F] rounded-xl p-5 transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:bg-[#9575CD] cursor-pointer">
+
+                    <i class="fa-solid fa-phone text-xl"></i>
+
+                    <h3 class="font-semibold mt-2">
+                        Phone
+                    </h3>
+
+                    <p class="text-sm text-[#D1C4E9] mt-1">
+                        093-239-3512
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <p class="text-[#9A8FAD] text-xs mt-8">
+                &copy; 2026 [Pitchayatida Tamai]. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
